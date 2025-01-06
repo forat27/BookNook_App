@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "617420591028",
+    "project_id": "booknook-final",
+    "storage_bucket": "booknook-final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:617420591028:android:3f121fd2c2f6e55db6ece1",
+        "android_client_info": {
+          "package_name": "com.example.myapplicationfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-QgsAIgeq5CiPMtu-yKgsPI3HZRWr33w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

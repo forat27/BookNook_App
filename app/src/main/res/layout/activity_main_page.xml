@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainpage2"
+    tools:context=".MainPage">
+
+    <ImageView
+        android:layout_width="224dp"
+        android:layout_height="160dp"
+        android:layout_alignBottom="@+id/Recyclermain"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="-46dp"
+        android:layout_marginBottom="465dp"
+        android:src="@drawable/img" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilePic"
+        android:layout_width="62dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/baseline_account_circle_24" />
+    <ImageView
+        android:id="@+id/profilePicbrowser"
+        android:layout_width="62dp"
+        android:layout_height="73dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/baseline_account_circle_24" />
+
+
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="105dp"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="39dp"
+        android:text="Hi, username"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/welcomeTextViewbrowser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="39dp"
+        android:layout_marginEnd="218dp"
+        android:text="Hello friend!"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/randomTextView"
+        android:layout_width="261dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/Recyclermain"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="93dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginBottom="464dp"
+        android:gravity="center"
+        android:text="Welcome to our app!"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="250dp"
+        android:text="Book Stores:"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/viewallstores"
+        android:layout_width="234dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="250dp"
+        android:text="View All"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginLeft="300dp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recyclermain22"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:layout_above="@+id/menu"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="290dp"
+        android:layout_marginBottom="236dp"
+        android:clipToPadding="false"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Recommended books:"
+        android:textColor="@color/dark_green"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginLeft="25dp"/>
+    <TextView
+        android:id="@+id/ViewAllID"
+        android:layout_width="234dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="445dp"
+        android:text="View All"
+        android:textColor="@color/dark_green"
+        android:textSize="20dp"
+        android:layout_marginLeft="300dp"
+        android:textStyle="bold" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/Recyclermain"
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_above="@+id/menu"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="485dp"
+        android:layout_marginBottom="16dp"
+        android:clipToPadding="false"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        app:itemIconSize="45dp"
+        app:itemIconTint="@drawable/item_select"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</RelativeLayout>

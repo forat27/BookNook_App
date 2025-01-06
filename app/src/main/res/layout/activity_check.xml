@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/checkuserimg"
+    tools:context=".CHECK">
+
+    <TextView
+        android:id="@+id/textViewYouAreA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:gravity="center"
+        android:text="You are a..."
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/buttonStoreOwner"
+        android:layout_width="343dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewYouAreA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="17dp"
+        android:text="Store Owner" />
+
+    <Button
+        android:id="@+id/buttonBrowser"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonStoreOwner"
+        android:layout_centerHorizontal="true"
+        android:textSize="17dp"
+        android:text="Browser" />
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add">
+
+
+
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="333dp"
+        android:layout_height="136dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="54dp"
+        android:src="@drawable/baseline_add_a_photo_24" />
+
+    <EditText
+        android:id="@+id/booktitleADD"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgView"
+        android:hint="Book Title"
+        android:layout_marginStart="15dp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/bookpriceADD"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/booktitleADD"
+        android:hint="Book Price"
+        android:layout_marginStart="15dp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:id="@+id/bookstoreADD"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookpriceADD"
+        android:layout_marginStart="15dp"
+        android:hint="BookStore Name"
+        android:padding="15dp"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/locationADD"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookstoreADD"
+        android:hint="Location"
+        android:layout_marginStart="15dp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp" />
+
+
+    <Button
+        android:id="@+id/btnUpload"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/menu"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginBottom="139dp"
+        android:layout_weight="1"
+        android:background="@drawable/custom_button"
+        android:text="Upload" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        app:itemIconSize="45dp"
+        app:itemIconTint="@drawable/item_select"
+        app:itemRippleColor="@color/dark_green"
+        app:itemTextColor="@drawable/item_select"
+        app:labelVisibilityMode="unlabeled"
+        app:menu="@menu/menu" />
+
+</RelativeLayout>
