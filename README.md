@@ -75,14 +75,6 @@ This was a high school project, so contributions are limited. However, feel free
 
 ---
 
-## License
-
-This project is licensed under the [Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License](https://creativecommons.org/licenses/by-nc-nd/4.0/). 
-
-You are free to share the project as long as you provide proper attribution, but you may not use it for commercial purposes or distribute modified versions of it.
-
----
-
 ## Contact
 
 For questions or feedback, feel free to reach out:
